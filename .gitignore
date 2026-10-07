@@ -1,0 +1,84 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+timeline.xctimeline
+playground.xcworkspace
+
+# Xcode - project settings that are user specific
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.xcworkspace/xcshareddata/swiftpm/configuration/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Accio
+Dependencies/
+.accio/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# Provisioning / signing (실수로 커밋되는 것 방지)
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+
+# 로컬 설정 / 시크릿
+*.local.xcconfig
+Secrets.xcconfig
+.env
+.env.*
+
+# Editors
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
